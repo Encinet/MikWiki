@@ -3,7 +3,6 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "Mik 服务器",
   description: "为了更好的游戏体验",
-  base: '/Mik/',
   dest: "./dist",
 
   head: [
@@ -30,14 +29,14 @@ module.exports = config({
     },
     "/en/": {
       lang: "en-US",
-      title: "Theme Demo",
-      description: "vuepress-theme-hope 的 demo",
+      title: "Mik Server",
+      description: "For a great gaming experience",
     },
   },
 
   themeConfig: {
-    logo: "/logo.svg",
-    hostname: "https://vuepress-theme-hope-demo.mrhope.site",
+    logo: "/logo.jpg",
+    hostname: "/",
 
     nav: [
       { text: "主页", link: "/", icon: "home" },
@@ -51,7 +50,6 @@ module.exports = config({
     sidebar: {
       "/": [
         "",
-        "home",
         "layout",
         {
           title: "如何使用",
@@ -75,7 +73,6 @@ module.exports = config({
         sidebar: {
           "/en/": [
             "",
-            "home",
             "layout",
             {
               title: "Guide",
@@ -93,10 +90,10 @@ module.exports = config({
       content: "默认页脚",
     },
 
-    comment: {
-      type: "waline",
-      serverURL: "https://vuepress-theme-hope-comment.vercel.app",
-    },
+    //comment: {
+    //  type: "waline",
+    //  serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+    //},
 
     copyright: {
       status: "global",

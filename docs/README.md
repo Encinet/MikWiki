@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Mik 服务器
-heroImage: /logo.svg
+heroImage: /logo.jpg
 heroText: Mik 服务器
 tagline: 为了美好的游戏体验
 action:
@@ -67,5 +67,5 @@ features:
     link: https://vuepress-theme-hope.github.io/zh/guide/feature/
 
 copyrightText: false
-footer: MIT Licensed | Copyright © 2019-present Mr.Hope
+footer: MIT Licensed | Copyright © 2022-present Mik
 ---
