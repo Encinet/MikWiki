@@ -4,12 +4,6 @@ category: 使用指南
 icon: creative
 ---
 
-# 主要功能与配置演示
+# 介绍
 
-- [页面展示](page.md)
-
-- [Markdown 展示](markdown.md)
-
-- [禁用展示](disable.md)
-
-- [加密展示](encrypt.md)
+米客服务器是Minecraft-Java版1.18.1的公益生存服务器

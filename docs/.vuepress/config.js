@@ -52,10 +52,16 @@ module.exports = config({
       "/": [
         "",
         {
-          title: "简介与开始",
+          title: "开始",
           icon: "creative",
           prefix: "guide/",
-          children: ["", "page", "markdown", "disable", "encrypt"],
+          children: ["", "join"],
+        },
+        {
+          title: "世界",
+          icon: "creative",
+          prefix: "guide/world/",
+          children: [""],
         },
       ],
     },
