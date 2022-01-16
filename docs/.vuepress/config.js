@@ -50,9 +50,8 @@ module.exports = config({
     sidebar: {
       "/": [
         "",
-        "layout",
         {
-          title: "如何使用",
+          title: "简介与开始",
           icon: "creative",
           prefix: "guide/",
           children: ["", "page", "markdown", "disable", "encrypt"],
@@ -87,7 +86,7 @@ module.exports = config({
 
     footer: {
       display: true,
-      content: "默认页脚",
+      content: "MIT Licensed | Copyright © 2022-present Mik",
     },
 
     //comment: {

@@ -1,6 +1,7 @@
 ---
-icon: creative
+title: 简介
 category: 使用指南
+icon: creative
 ---
 
 # 主要功能与配置演示
