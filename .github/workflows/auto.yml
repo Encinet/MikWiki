@@ -47,7 +47,7 @@ jobs:
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
         run: |
-          cd docs/.vuepress/dist
+          cd dist
           git init
           git add -A
           git commit -m 'deploy'
