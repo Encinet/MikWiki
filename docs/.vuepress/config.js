@@ -3,7 +3,7 @@ const { config } = require("vuepress-theme-hope");
 module.exports = config({
   title: "Mik 服务器",
   description: "为了更好的游戏体验",
-
+  base: '/Mik/',
   dest: "./dist",
 
   head: [
