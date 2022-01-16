@@ -39,9 +39,6 @@ module.exports = config({
     logo: "/logo.svg",
     hostname: "https://vuepress-theme-hope-demo.mrhope.site",
 
-    author: "Mr.Hope",
-    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
-
     nav: [
       { text: "主页", link: "/", icon: "home" },
       {
@@ -55,7 +52,6 @@ module.exports = config({
       "/": [
         "",
         "home",
-        "slides",
         "layout",
         {
           title: "如何使用",
@@ -69,18 +65,17 @@ module.exports = config({
     locales: {
       "/en/": {
         nav: [
-          { text: "Home", link: "/zh/", icon: "home" },
+          { text: "Home", link: "/en/", icon: "home" },
           {
             text: "Guide",
             icon: "creative",
-            link: "/zh/guide/",
+            link: "/en/guide/",
           },
         ],
         sidebar: {
           "/en/": [
             "",
             "home",
-            "slides",
             "layout",
             {
               title: "Guide",

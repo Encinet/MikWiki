@@ -10,24 +10,24 @@ action:
     link: /guide/
     type: primary
 
-  - text: English
+  - text: English 🏴󠁧󠁢󠁥󠁮󠁧󠁿
     link: /en/
 
 features:
-  - title: Markdown 增强 🧰
-    details: 新增文字对齐、上下角标、脚注、标记、任务列表、数学公式、流程图、图表与幻灯片支持
-    link: https://vuepress-theme-hope.github.io/zh/guide/markdown/
+  - title: 最新版本 💡
+    details: 时刻跟随最新版本，体验到MoJang更新的最新特性
+    link: https://www.minecraft.net/
 
-  - title: 浏览量与评论 💬
+  - title: 三周目 💬
     details: 配合 Valine 与 Vssue 来开启阅读量统计与评论支持
     link: https://vuepress-theme-hope.github.io/zh/guide/feature/comment/
 
-  - title: 文章信息展示 ℹ
+  - title: 服务器类型
     details: 为你的文章添加作者、写作日期、预计阅读时间、字数统计等信息
     link: https://vuepress-theme-hope.github.io/zh/guide/feature/page-info/
 
-  - title: 博客支持 📝
-    details: 为你的文章添加日期、标签和分类，即可自动生成文章、分类、标签与时间轴列表
+  - title: 服务器特色
+    details: 特色就是特色啦，自己滚去服务器看(ノ｀Д)ノ
     link: https://vuepress-theme-hope.github.io/zh/guide/blog/intro/
 
   - title: 文章加密 🔐

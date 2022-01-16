@@ -10,7 +10,7 @@ action:
     link: /en/guide/
     type: primary
 
-  - text: Chinese
+  - text: Chinese 🇨🇳
     link: /
 
 features:
