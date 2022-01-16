@@ -3,8 +3,8 @@ home: true
 icon: home
 title: Mik 服务器
 heroImage: /logo.svg
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: Mik 服务器
+tagline: 为了美好的游戏体验
 action:
   - text: 使用指南 💡
     link: /guide/

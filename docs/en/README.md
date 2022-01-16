@@ -4,7 +4,7 @@ icon: home
 title: Mik Server
 heroImage: /logo.svg
 heroText: Mik Server
-tagline: You can place the description of the project here.
+tagline: For a great gaming experience
 action:
   - text: How to Use 💡
     link: /en/guide/
