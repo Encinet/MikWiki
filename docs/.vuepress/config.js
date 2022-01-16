@@ -36,7 +36,8 @@ module.exports = config({
 
   themeConfig: {
     logo: "/logo.jpg",
-    hostname: "/",
+    hostname: "https://mik.js.org/",
+    sitemap: false,
 
     nav: [
       { text: "主页", link: "/", icon: "home" },
