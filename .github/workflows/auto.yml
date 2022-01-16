@@ -46,9 +46,12 @@ jobs:
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
       - name: Deploy to GitHub Pages
-        run: |
-          cd dist
-          git init
-          git add -A
-          git commit -m 'deploy'
-          git push -f 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@github.com:ObcbO/Mik.git main
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2
+        with:
+          build_dir: dist
+          repo: ObcbO/Mik
+          target_branch: main
+        env:
+          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          GITHUB_TOKEN: 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
