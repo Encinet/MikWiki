@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Mik Server
-heroImage: /logo.jpg
+heroImage: /logo.png
 heroText: Mik Server
 tagline: For a great gaming experience
 action:

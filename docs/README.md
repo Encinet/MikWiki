@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Mik 服务器
-heroImage: /logo.jpg
+heroImage: /logo.png
 heroText: Mik 服务器
 tagline: 为了美好的游戏体验
 action:
@@ -10,11 +10,11 @@ action:
     link: /guide/
     type: primary
 
-  - text: English 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+  - text: English 󠁧󠁢󠁥󠁮󠁧🇬🇧
     link: /en/
 
 features:
-  - title: 最新版本 💡
+  - title: 双种玩法
     details: 时刻跟随最新版本，体验到MoJang更新的最新特性
     link: https://www.minecraft.net/
 

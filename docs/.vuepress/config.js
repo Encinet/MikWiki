@@ -1,4 +1,5 @@
 const { config } = require("vuepress-theme-hope");
+@import "~@mr-hope/vuepress-shared/styles/font-awesome";
 
 module.exports = config({
   title: "Mik 服务器",
@@ -35,9 +36,10 @@ module.exports = config({
   },
 
   themeConfig: {
-    logo: "/logo.jpg",
-    hostname: "https://mik.js.org/",
-    sitemap: false,
+    logo: "/logo.png",
+    hostname: "https://mik.vercel.app/",
+    sitemap: true,
+    iconPrefix: 'fas fa-',
 
     nav: [
       { text: "主页", link: "/", icon: "home" },
@@ -58,9 +60,15 @@ module.exports = config({
           children: ["", "join"],
         },
         {
-          title: "世界",
-          icon: "creative",
-          prefix: "guide/world/",
+          title: "生存服",
+          icon: "fas fa-cubes",
+          prefix: "guide/survival/",
+          children: [""],
+        },
+        {
+          title: "PVP服",
+          icon: "fas fa-bolt",
+          prefix: "guide/pvp/",
           children: [""],
         },
       ],
