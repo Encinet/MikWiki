@@ -1,5 +1,4 @@
 const { config } = require("vuepress-theme-hope");
-@import "~@mr-hope/vuepress-shared/styles/font-awesome";
 
 module.exports = config({
   title: "Mik 服务器",

@@ -1,7 +1,7 @@
 ---
 title: 如何进服
 category: 使用指南
-icon: api
+icon: fa fa-book
 ---
 
 - 首先需要前往服务器主QQ群 4324121
