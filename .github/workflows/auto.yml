@@ -2,8 +2,8 @@ name: docs
 
 on:
   # 每当 push 到 main 分支时触发部署
-  # push:
-    # branches: [main]
+  push:
+    branches: [code ]
   # 手动触发部署
   workflow_dispatch:
 
@@ -51,8 +51,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         with:
           build_dir: dist
-          repo: ObcbO/Mik
-          target_branch: main
+          target_branch: gh-pages
         env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
