@@ -56,13 +56,13 @@ module.exports = config({
           title: "开始",
           icon: "fas fa-star",
           prefix: "guide/",
-          children: ["", "join", "account"],
+          children: ["", "join", "account", "rules"],
         },
         {
           title: "生存服",
           icon: "fas fa-cubes",
           prefix: "guide/survival/",
-          children: [""],
+          children: ["rules", "map"],
         },
         {
           title: "PVP服",
