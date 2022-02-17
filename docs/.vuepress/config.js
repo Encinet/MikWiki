@@ -54,9 +54,9 @@ module.exports = config({
         "",
         {
           title: "开始",
-          icon: "creative",
+          icon: "fas fa-star",
           prefix: "guide/",
-          children: ["", "join"],
+          children: ["", "join", "sign"],
         },
         {
           title: "生存服",
