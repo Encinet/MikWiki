@@ -1,6 +1,6 @@
 ---
 title: 账号
-icon: fas fa-user
+icon: fa fa-user
 ---
 
 因为本服是离线服务器，为了保证玩家们的账号安全，于是本服添加了账号系统

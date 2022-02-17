@@ -1,6 +1,6 @@
 ---
 title: 如何进服
-icon: fas fa-hand-pointer-o
+icon: fas fa-hand-pointer
 ---
 
 ## Java版
