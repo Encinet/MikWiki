@@ -1,6 +1,6 @@
 ---
 title: 规则
-icon: fa fa-font-awesome
+icon: fas fa-font-awesome
 ---
 
 - 不准攻击服务器，后果永封+踢群
