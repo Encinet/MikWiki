@@ -62,7 +62,7 @@ module.exports = config({
           title: "生存服",
           icon: "fas fa-cubes",
           prefix: "guide/survival/",
-          children: ["rules", "map"],
+          children: ["map"],
         },
         {
           title: "PVP服",
