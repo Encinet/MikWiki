@@ -17,15 +17,15 @@ export default defineHopeConfig({
   ],
 
   locales: {
-    "/en/": {
-      lang: "en-US",
-      title: "Mik Server",
-      description: "For a great gaming experience",
-    },
     "/": {
+      lang: "en-US",
+      title: "Theme Demo",
+      description: "A demo for vuepress-theme-hope",
+    },
+    "/zh/": {
       lang: "zh-CN",
-      title: "Mik 服务器",
-      description: "为了更好的游戏体验",
+      title: "主题演示",
+      description: "vuepress-theme-hope 的演示",
     },
   },
 
@@ -34,13 +34,18 @@ export default defineHopeConfig({
   themeConfig: {
     hostname: "https://vuepress-theme-hope-v2-demo.mrhope.site",
 
+    author: {
+      name: "Mr.Hope",
+      url: "https://mrhope.site",
+    },
+
     iconPrefix: "iconfont icon-",
 
     logo: "/logo.svg",
 
     fullScreen: true,
 
-    repo: "https://github.com/ObcbO/MikWiki",
+    repo: "https://github.com/vuepress-theme-hope/vuepress-theme-hope",
 
     docsDir: "demo/src",
 
@@ -86,7 +91,7 @@ export default defineHopeConfig({
         // sidebar
         sidebar: sidebar.en,
 
-        footer: "MIT Licensed | Copyright © 2022-present Mik",
+        footer: "Default footer",
 
         displayFooter: true,
 
@@ -109,7 +114,7 @@ export default defineHopeConfig({
         // sidebar
         sidebar: sidebar.zh,
 
-        footer: "MIT Licensed | Copyright © 2022-present Mik",
+        footer: "默认页脚",
 
         displayFooter: true,
 
@@ -134,6 +139,11 @@ export default defineHopeConfig({
     plugins: {
       blog: {
         autoExcerpt: true,
+      },
+
+      comment: {
+        type: "waline",
+        serverURL: "https://vuepress-theme-hope-comment.vercel.app",
       },
 
       mdEnhance: { enableAll: true },

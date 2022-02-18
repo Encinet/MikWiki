@@ -1,27 +1,18 @@
 {
-  "name": "mikwiki",
+  "name": "MikWiki",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "repository": "https://github.com/ObcbO/MikWiki.git",
+  "author": "ObcbO <m17089494917@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.35",
+    "vuepress-theme-hope": "^2.0.0-alpha.27"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --no-cache",
     "docs:dev": "vuepress dev docs",
     "docs:eject-theme": "vuepress eject-hope docs"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ObcbO/MikWiki.git"
-  },
-  "author": "ObcbO",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ObcbO/MikWiki/issues"
-  },
-  "homepage": "https://github.com/ObcbO/MikWiki#readme",
-  "devDependencies": {
-    "vuepress": "^2.0.0-beta.35",
-    "vuepress-theme-hope": "^2.0.0-alpha.27"
   }
 }
