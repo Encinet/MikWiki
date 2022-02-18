@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://mik.vercel.app/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Mik 服务器</title>
+    <link>https://mik.vercel.app/</link>
+    <description>为了更好的游戏体验</description>
+    <language>zh-CN</language>
+    <pubDate>Fri, 18 Feb 2022 13:54:54 GMT</pubDate>
+    <lastBuildDate>Fri, 18 Feb 2022 13:54:54 GMT</lastBuildDate>
+    <generator>@mr-hope/vuepress-plugin-feed</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <item>
+      <title>Mik 服务器</title>
+      <link>https://mik.vercel.app/</link>
+      <guid>https://mik.vercel.app/</guid>
+      <source url="https://mik.vercel.app/rss.xml">Mik 服务器</source>
+      <pubDate>Sun, 16 Jan 2022 07:50:38 GMT</pubDate>
+    </item>
+    <item>
+      <title>Mik Server</title>
+      <link>https://mik.vercel.app/en/</link>
+      <guid>https://mik.vercel.app/en/</guid>
+      <source url="https://mik.vercel.app/rss.xml">Mik Server</source>
+      <pubDate>Fri, 18 Feb 2022 13:34:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>账号</title>
+      <link>https://mik.vercel.app/guide/account/</link>
+      <guid>https://mik.vercel.app/guide/account/</guid>
+      <source url="https://mik.vercel.app/rss.xml">账号</source>
+      <pubDate>Fri, 18 Feb 2022 13:34:01 GMT</pubDate>
+      <content:encoded><![CDATA[<p>因为本服是离线服务器，为了保证玩家们的账号安全，于是本服添加了账号系统</p>
+<div><p>提示</p>
+<p>如果拥有在服务器里的离线ID玩家与某个正版玩家重合，账号的归属属于正版玩家</p>
+</div>
+<h1 id="注册"> 注册</h1>
+<p>如果你是首次进入服务器，就需进行注册。</p>
+<div><p>注意</p>
+<p>如果你看到服务器提示你要登录，代表这个ID已经被注册过了！</p>
+</div>
+<ul>
+<li>/register 密码 密码</li>
+</ul>
+<p>这里密码重复两遍以防手误输错</p>
+<p>注册成功后，会直接帮你登录，无需输入登录命令</p>
+<h1 id="登录"> 登录</h1>
+<ul>
+<li>/l 密码</li>
+<li>/login 密码</li>
+</ul>
+<p>以上两种命令都可以登录，登录成功后，你就可以开始游戏了</p>
+<h1 id="重置密码"> 重置密码</h1>
+<ul>
+<li>/changepassword 旧密码 新密码</li>
+</ul>
+<p>这个命令只能在登录后使用，如果忘记密码请联系服主或管理员</p>
+<h1 id="注销账号"> 注销账号</h1>
+<ul>
+<li>/unregister 密码</li>
+</ul>
+<div><p>警告</p>
+<p>此命令将会注销你的账号！这是不可逆的操作！请三思！</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>如何进服</title>
+      <link>https://mik.vercel.app/guide/join/</link>
+      <guid>https://mik.vercel.app/guide/join/</guid>
+      <source url="https://mik.vercel.app/rss.xml">如何进服</source>
+      <pubDate>Fri, 18 Feb 2022 13:34:01 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="java版"> Java版</h2>
+<ul>
+<li>IP: xxx.xxx.xxx.xxx</li>
+</ul>
+<p>允许使用1.7及以上版本进服</p>
+<h2 id="基岩版"> 基岩版</h2>
+<ul>
+<li>IP: xxx.xxx.xxx.xxx</li>
+<li>Port(端口): 19132(默认)</li>
+</ul>
+<p>为了防止ID冲突造成的问题,本服将进入基岩版的ID加上前缀 <code>.</code></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>简介</title>
+      <link>https://mik.vercel.app/guide/profile/</link>
+      <guid>https://mik.vercel.app/guide/profile/</guid>
+      <source url="https://mik.vercel.app/rss.xml">简介</source>
+      <pubDate>Fri, 18 Feb 2022 13:49:24 GMT</pubDate>
+      <content:encoded><![CDATA[<h1 id="介绍"> 介绍</h1>
+<p>米客服务器是Minecraft-Java版的公益生存服务器</p>
+<h2 id="服务器结构"> 服务器结构</h2>
+<p>有生存，PVP两个服务器</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>规则</title>
+      <link>https://mik.vercel.app/guide/rules/</link>
+      <guid>https://mik.vercel.app/guide/rules/</guid>
+      <source url="https://mik.vercel.app/rss.xml">规则</source>
+      <pubDate>Fri, 18 Feb 2022 13:34:01 GMT</pubDate>
+      <content:encoded><![CDATA[<ul>
+<li>不准攻击服务器，后果永封+踢群</li>
+<li>不准开挂，后果永封+踢群</li>
+<li>不准跑图，后果封禁60天+禁言1天</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>地图</title>
+      <link>https://mik.vercel.app/guide/survival/map/</link>
+      <guid>https://mik.vercel.app/guide/survival/map/</guid>
+      <source url="https://mik.vercel.app/rss.xml">地图</source>
+      <pubDate>Fri, 18 Feb 2022 13:34:01 GMT</pubDate>
+      <content:encoded><![CDATA[<p>地图限制大小</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
