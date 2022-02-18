@@ -7,7 +7,7 @@ heroText: Mik Server
 tagline: For a great gaming experience
 action:
   - text: How to Use 💡
-    link: /en/guide/
+    link: /en/guide/profile/
     type: primary
 
   - text: Chinese 🇨🇳

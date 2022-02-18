@@ -7,7 +7,7 @@ heroText: Mik 服务器
 tagline: 为了美好的游戏体验
 action:
   - text: 使用指南 💡
-    link: /guide/
+    link: /guide/profile/
     type: primary
 
   - text: English 󠁧󠁢󠁥󠁮󠁧🇬🇧
