@@ -56,7 +56,7 @@ module.exports = config({
           title: "开始",
           icon: "fas fa-star",
           prefix: "guide/",
-          children: ["", "join", "account", "rules"],
+          children: ["profile", "join", "account", "rules"],
         },
         {
           title: "生存服",
